@@ -1,6 +1,6 @@
 import urllib.request
 
-page = urllib.request.urlopen("http://127.0.0.1:63517/index.html")
+page = urllib.request.urlopen("http://www.amazon.com/index.html")
 text = page.read().decode("utf8")
 
 where = text.find('>?')
